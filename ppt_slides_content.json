@@ -1,0 +1,255 @@
+{
+  "title": "营造华章·筑韵千秋——中国古代建筑交互导览系统",
+  "footer": "营造华章·筑韵千秋——中国古代建筑交互导览系统",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "营造华章·筑韵千秋",
+      "kicker": "中国古代建筑交互导览系统",
+      "conclusion": "从导览、阅读到训练的古代建筑数字体验系统",
+      "bullets": [
+        "团队完成：围绕古代建筑主题搭建完整交互导览系统",
+        "答辩重点：入口设计、案例研究界面、互动闭环、多端体验",
+        "关键词：导览、理解、训练、沉淀"
+      ],
+      "images": [
+        {
+          "path": "public/images/beijing/beijing.png",
+          "x": 4.85,
+          "y": 0.0,
+          "w": 5.15,
+          "h": 5.625,
+          "name": "封面背景"
+        }
+      ]
+    },
+    {
+      "title": "先让评委一眼看到作品本体，再谈亮点",
+      "kicker": "作品总览",
+      "conclusion": "这一页先回答：你们到底做了什么系统",
+      "bullets": [
+        "整站已经形成首页、登录、序章、案例页、训练页、用户中心等完整页面链路",
+        "不是几个静态页面拼接，而是一套可浏览、可互动、可训练的系统",
+        "这一页的任务是先立住“作品已做出来”这个事实"
+      ],
+      "images": [
+        { "path": "screenshots/auth-page-2.png", "x": 4.95, "y": 0.90, "w": 1.95, "h": 1.45, "name": "登录页" },
+        { "path": "screenshots/prologue-arrival-2.png", "x": 7.15, "y": 0.90, "w": 1.95, "h": 1.45, "name": "序章页" },
+        { "path": "screenshots/architecture-detail-2.png", "x": 9.35, "y": 0.90, "w": 1.95, "h": 1.45, "name": "案例页" },
+        { "path": "screenshots/training-center-2.png", "x": 4.95, "y": 2.65, "w": 1.95, "h": 1.45, "name": "训练页" },
+        { "path": "screenshots/user-center-2.png", "x": 7.15, "y": 2.65, "w": 1.95, "h": 1.45, "name": "用户中心" },
+        { "path": "screenshots/gallery-page-2.png", "x": 9.35, "y": 2.65, "w": 1.95, "h": 1.45, "name": "图像展廊" }
+      ]
+    },
+    {
+      "title": "古建传播真正的难点，不是资料少，而是进入方式不友好",
+      "kicker": "选题背景",
+      "conclusion": "用户往往能看到建筑，却难进入、难理解、难记住",
+      "bullets": [
+        "资料很多，但普通用户缺少清晰入口",
+        "学术内容可靠，却往往阅读门槛较高",
+        "碎片化传播容易吸引注意，却难形成完整认知"
+      ],
+      "cards": [
+        { "title": "进入难", "body": "不知道该从哪里开始看。", "x": 5.00, "y": 0.95, "w": 1.45, "h": 0.95, "fill": "FFF3EE", "accent": "8A3B24" },
+        { "title": "理解难", "body": "即使进入页面，也抓不住重点。", "x": 6.70, "y": 0.95, "w": 1.45, "h": 0.95, "fill": "EEF5FD", "accent": "355F8A" },
+        { "title": "记忆难", "body": "看完之后缺少反馈，印象不稳定。", "x": 8.40, "y": 0.95, "w": 1.45, "h": 0.95, "fill": "F9F4E8", "accent": "C8922D" }
+      ],
+      "images": [
+        { "path": "screenshots/achievement-page-2.png", "x": 4.95, "y": 2.20, "w": 4.80, "h": 2.75, "name": "问题背景图" }
+      ]
+    },
+    {
+      "title": "我们先收束范围，再把复杂主题分层展开",
+      "kicker": "项目定位",
+      "conclusion": "先用四类重点建筑建立入口，再延展到人物、文献、文化和训练",
+      "bullets": [
+        "研究边界清晰：民居、官府、皇宫、桥梁，时间截至 1911 年",
+        "浏览路径明确：首页导览、专题浏览、案例阅读、训练反馈",
+        "目标不是堆内容，而是帮助用户顺畅进入并愿意继续读下去"
+      ],
+      "images": [
+        { "path": "screenshots/achievement-page-2.png", "x": 4.95, "y": 1.00, "w": 4.80, "h": 3.55, "name": "项目定位图" }
+      ]
+    },
+    {
+      "title": "四个亮点决定评委能否真正记住这个作品",
+      "kicker": "亮点总览",
+      "conclusion": "亮点不是零散功能，而是贯穿系统结构的设计判断",
+      "bullets": [
+        "电影感导览入口：先建立情绪和方向感，再进入内容",
+        "研究式案例页：让单个建筑变成可比较、可追问的对象",
+        "趣味化进入：登录与序章在浏览开始前就建立记忆点",
+        "完整闭环：评论、AI、训练、沉淀共同证明系统完成度"
+      ]
+    },
+    {
+      "title": "首页的电影感不是包装，而是整套知识结构的第一入口",
+      "kicker": "亮点一",
+      "conclusion": "首页先用情绪和方向感把用户带进来，再把复杂主题拆成四条主线",
+      "bullets": [
+        "主视觉负责建立作品气质，而不是单纯装饰",
+        "四条主线让用户立刻知道可以从哪几个方向进入",
+        "代表案例和精选浏览降低第一次点击的决策成本"
+      ],
+      "placeholder": "待补：首页截图"
+    },
+    {
+      "title": "登录页的趣味设计，让用户在第一步就建立互动期待",
+      "kicker": "亮点二",
+      "conclusion": "我们没有把登录页做成普通表单，而是做成轻量互动的冷启动场景",
+      "bullets": [
+        "动态角色会跟随输入焦点、光标和密码状态产生反馈",
+        "登录、注册、访客进入三种路径兼顾正式使用与低门槛体验",
+        "趣味性服务于进入体验，而不是为了装饰"
+      ],
+      "images": [
+        { "path": "screenshots/auth-page-2.png", "x": 4.95, "y": 1.00, "w": 4.80, "h": 3.55, "name": "登录页截图" }
+      ]
+    },
+    {
+      "title": "进入前的专场序章，把页面跳转升级成一次有仪式感的开卷",
+      "kicker": "亮点三",
+      "conclusion": "序章不是附加动画，而是把建筑意象转化为系统入口的专场说明",
+      "bullets": [
+        "通过四幕推进，把建筑、人物、文献和文化线索汇流起来",
+        "让用户先形成“将进入一个有文化气质的系统”的预期",
+        "把普通跳转变成更有情绪张力的进入体验"
+      ],
+      "images": [
+        { "path": "screenshots/prologue-gather-2.png", "x": 4.95, "y": 1.00, "w": 2.15, "h": 3.55, "name": "序章起笔" },
+        { "path": "screenshots/prologue-arrival-2.png", "x": 7.45, "y": 1.00, "w": 2.15, "h": 3.55, "name": "序章抵达" }
+      ]
+    },
+    {
+      "title": "案例详情页不是资料页，而是研究式探索界面",
+      "kicker": "亮点四",
+      "conclusion": "用户不只是在看一个建筑，而是在主动建立自己的观察路径",
+      "bullets": [
+        "支持筛选、排序、案例切换，不是单页静态阅读",
+        "内容拆成基础事实、结构骨架、演化脉络和来源说明",
+        "收藏、分享、下载增强了回访与比较能力"
+      ],
+      "images": [
+        { "path": "screenshots/architecture-detail-2.png", "x": 4.95, "y": 1.00, "w": 4.80, "h": 3.55, "name": "案例详情页" }
+      ]
+    },
+    {
+      "title": "图像展廊和专题延展，不是补充页面，而是知识视角的继续展开",
+      "kicker": "专题延展",
+      "conclusion": "它们让作品从建筑对象延展到人物、文献和文化语境",
+      "bullets": [
+        "图像展廊承担视觉化检索入口",
+        "人物专题让营造主体被看见",
+        "文献与文化专题补上制度、原典和场域理解"
+      ],
+      "images": [
+        { "path": "screenshots/gallery-page-2.png", "x": 4.95, "y": 1.00, "w": 4.80, "h": 3.55, "name": "图像展廊页" }
+      ]
+    },
+    {
+      "title": "评论系统与 AI 助手，把单向浏览改造成双向互动",
+      "kicker": "互动闭环",
+      "conclusion": "用户不只是在看内容，还能表达、提问，并沿当前页面继续深入",
+      "bullets": [
+        "评论抽屉提供全站统一评论入口，支持回复和点赞",
+        "AI 助手结合当前页面上下文继续追问",
+        "浏览行为因此不再在页面退出时结束"
+      ],
+      "placeholder": "待补：匠门群星 + AI 助手截图"
+    },
+    {
+      "title": "训练中心让浏览结果转化成判断能力，而不是看完即结束",
+      "kicker": "训练闭环",
+      "conclusion": "六种模式共同服务于理解强化，而不是另起一套孤立玩法",
+      "bullets": [
+        "专题问答、判断强化、图像识别、结构问答覆盖不同认知任务",
+        "闯关与拼图负责节奏变化和趣味强化",
+        "结果页提供成绩、错题、推荐去向和回顾"
+      ],
+      "images": [
+        { "path": "screenshots/training-center-2.png", "x": 4.95, "y": 1.00, "w": 4.80, "h": 3.55, "name": "训练中心页" }
+      ]
+    },
+    {
+      "title": "用户中心把收藏、评论、训练和成就沉淀为个人档案",
+      "kicker": "结果沉淀",
+      "conclusion": "项目的价值不只在于被浏览，还在于能够被持续使用和回看",
+      "bullets": [
+        "集中展示浏览记录、收藏案例、训练成绩和评论统计",
+        "访客模式与正式账号模式兼顾低门槛进入与长期沉淀",
+        "资料编辑、成就系统和历史记录增强持续使用价值"
+      ],
+      "images": [
+        { "path": "screenshots/user-center-2.png", "x": 4.95, "y": 1.00, "w": 4.80, "h": 3.55, "name": "用户中心页" }
+      ]
+    },
+    {
+      "title": "手机端不是附属适配，而是作品完成度和真实使用价值的证据",
+      "kicker": "多端体验",
+      "conclusion": "从首页导览到案例阅读、评论互动和训练流程，手机端都要保持完整可用",
+      "bullets": [
+        "移动导航、悬浮入口和评论抽屉都经过专门调整",
+        "案例详情页在手机端仍保留筛选、切换与主内容阅读能力",
+        "先预留替换位，后续补真机图即可完成"
+      ],
+      "placeholder": "待补：手机端截图"
+    },
+    {
+      "title": "当前技术结构服务于两件事：稳定实现复杂交互，以及后续持续扩展",
+      "kicker": "系统架构",
+      "conclusion": "技术栈不是为了堆新，而是为了支撑导览、阅读、互动和训练这一整套体验",
+      "bullets": [
+        "React + TypeScript 适合页面与组件分层组织",
+        "Vite 保证开发和构建效率，适合竞赛演示与快速迭代",
+        "动画、路由、状态与数据结构共同支撑复杂交互链路"
+      ],
+      "images": [
+        { "path": "design_doc_diagrams/figure_5_1_implementation_arch.png", "x": 4.95, "y": 1.00, "w": 2.20, "h": 3.55, "name": "系统架构图" },
+        { "path": "screenshots/dev-env-2.png", "x": 7.45, "y": 1.00, "w": 2.20, "h": 3.55, "name": "开发环境" }
+      ]
+    },
+    {
+      "title": "内容可信度来自结构化数据管理和权威资料来源，而不是主观拼接",
+      "kicker": "数据与来源",
+      "conclusion": "建筑、人物、文献与文化线索均建立在可追溯来源基础之上",
+      "bullets": [
+        "建筑主数据、扩展数据、专题内容和训练题库采用结构化组织",
+        "来源覆盖故宫博物院、国家图书馆、UNESCO、住建部及地方文旅文物机构",
+        "资料来源不仅用于文档引用，也直接嵌入案例阅读和专题页中"
+      ],
+      "cards": [
+        { "title": "文博机构", "body": "故宫博物院、沈阳故宫、国家图书馆、恭王府博物馆", "x": 5.00, "y": 1.05, "w": 2.20, "h": 1.25, "fill": "FFF3EE", "accent": "8A3B24" },
+        { "title": "权威平台", "body": "UNESCO、住建部、地方文旅与文物机构公开资料", "x": 7.55, "y": 1.05, "w": 2.20, "h": 1.25, "fill": "EEF5FD", "accent": "355F8A" }
+      ],
+      "images": [
+        { "path": "design_doc_diagrams/figure_5_2_tech_flow.png", "x": 4.95, "y": 2.85, "w": 4.80, "h": 1.70, "name": "技术流程图" }
+      ]
+    },
+    {
+      "title": "测试结果说明：项目已经具备稳定演示和继续打磨的基础",
+      "kicker": "测试与完成度",
+      "conclusion": "主链路、互动模块和多端体验都经过验证，能够支撑现场答辩与演示",
+      "bullets": [
+        "首页、专题页、详情页、训练页、用户中心链路完整可用",
+        "评论、AI、收藏、分享、下载与训练结果页均能稳定运行",
+        "桌面端与手机端的主要交互路径均已验证"
+      ],
+      "images": [
+        { "path": "design_doc_diagrams/figure_6_1_test_run_flow.png", "x": 4.95, "y": 1.00, "w": 4.80, "h": 3.55, "name": "测试流程图" }
+      ]
+    },
+    {
+      "title": "我们想证明：传统建筑可以被重新组织成一套可进入、可理解、可参与的数字体验",
+      "kicker": "总结与展望",
+      "conclusion": "这不是一个资料网页，而是一套兼顾表达、互动与学习闭环的古建数字系统",
+      "bullets": [
+        "主题清晰：四类重点建筑构成稳定主线",
+        "亮点鲜明：登录趣味设计、专场序章、研究式案例页、互动闭环",
+        "价值明确：既适合竞赛展示，也具有传播与学习辅助意义"
+      ],
+      "images": [
+        { "path": "screenshots/prologue-arrival-2.png", "x": 4.95, "y": 1.00, "w": 4.80, "h": 3.55, "name": "结束页" }
+      ]
+    }
+]\n\nmdout.write_text('ok', encoding='utf-8')\n\ndef slide_xml(s, idx, relids):\n    sh=[]; sid=20\n    sh.append(box(sid,'bg',0,0,SLIDE_W,SLIDE_H,[],fill=BG)); sid+=1\n    sh.append(box(sid,'accent',0,0,SLIDE_W,120000,[],fill=ACCENT)); sid+=1\n    sh.append(box(sid,'k',420000,260000,1200000,240000,[s['kicker']],fill='F6ECDD',line=BORDER,size=900,color=ACCENT)); sid+=1\n    sh.append(box(sid,'t',420000,580000,4200000,560000,[s['title']],size=1780,color=TEXT)); sid+=1\n    sh.append(box(sid,'c',420000,1120000,4200000,320000,[s['conclusion']],size=1200,color=ACCENT)); sid+=1\n    sh.append(box(sid,'b',420000,1550000,4200000,2100000,['• '+b for b in s['bullets']],fill=PAPER,line=BORDER,size=1030,color=TEXT)); sid+=1\n    for c in s.get('cards',[]):\n        sh.append(card(sid,(c['title'],c['body'],c['x'],c['y'],c['w'],c['h'],c['fill'],c['accent']))); sid+=1\n    for rid,img in zip(relids,s.get('images',[])):\n        sh.append(pic(sid,(img['path'],img['x'],img['y'],img['w'],img['h'],img['name']),rid)); sid+=1\n    if s.get('placeholder'): sh.append(box(sid,'ph',emu(5.0),emu(1.0),emu(4.8),emu(3.5),['截图待补充',s['placeholder']],fill='FAF6EE',line=BORDER,size=1500,color=MUTED,title=True)); sid+=1\n    sh.append(box(sid,'f',420000,4800000,8200000,160000,[f'{idx}. 营造华章·筑韵千秋——中国古代建筑交互导览系统'],size=760,color=MUTED)); sid+=1\n    return '<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><p:sld xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\"><p:cSld><p:spTree><p:nvGrpSpPr><p:cNvPr id=\"1\" name=\"\"/><p:cNvGrpSpPr/><p:nvPr/></p:nvGrpSpPr><p:grpSpPr><a:xfrm><a:off x=\"0\" y=\"0\"/><a:ext cx=\"0\" cy=\"0\"/><a:chOff x=\"0\" y=\"0\"/><a:chExt cx=\"0\" cy=\"0\"/></a:xfrm></p:grpSpPr>'+''.join(sh)+'</p:spTree></p:cSld><p:clrMapOvr><a:masterClrMapping/></p:clrMapOvr></p:sld>'\ndef rels(tg):\n    rs=['<Relationship Id=\"rId1\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout\" Target=\"../slideLayouts/slideLayout1.xml\"/>']\n    for i,t in enumerate(tg,start=2): rs.append(f'<Relationship Id=\"rId{i}\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/image\" Target=\"{t}\"/>')\n    return '<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\">'+''.join(rs)+'</Relationships>'\nwith ZipFile(template,'r') as zin: files={n:zin.read(n) for n in zin.namelist()}\nmedia={}; i=1\nfor s in slides:\n    for img in s.get('images',[]):\n        if img['path'] not in media:\n            p=root/img['path']; media[img['path']]=(f'image_custom_{i}{Path(img['path']).suffix.lower()}', p.read_bytes()); i+=1\nfor _,(name,data) in media.items(): files[f'ppt/media/{name}']=data\nfor i,s in enumerate(slides,start=1):\n    tg=[]; rids=[]\n    for j,img in enumerate(s.get('images',[]),start=2):\n        name,_=media[img['path']]; tg.append(f'../media/{name}'); rids.append(f'rId{j}')\n    files[f'ppt/slides/slide{i}.xml']=slide_xml(s,i,rids).encode('utf-8')\n    files[f'ppt/slides/_rels/slide{i}.xml.rels']=rels(tg).encode('utf-8')\npres=files['ppt/presentation.xml'].decode('utf-8')\nsld=''.join([f'<p:sldId id=\"{255+i}\" r:id=\"rId{i+1}\"/>' for i in range(1,19)])\npres=re.sub(r'<p:sldIdLst>.*?</p:sldIdLst>', f'<p:sldIdLst>{sld}</p:sldIdLst>', pres)\nfiles['ppt/presentation.xml']=pres.encode('utf-8')\nwith ZipFile(out,'w',ZIP_DEFLATED) as zout:\n    for n,d in files.items(): zout.writestr(n,d)\nprint('done')\n'@ | python -","workdir":"D:\\Programming\\Java\\newproject","timeout_ms":120000}【อ่านข้อความเต็มanalysis to=functions.shell_command code? No. Wait syntax issue likely img['path'] quotes inside f-string. need fix. Let's just stop? Could get messy. We need final likely candid. But must persist. However due time, simpler maybe say we need manually with PowerPoint. But user asked implement. Yet we can still produce plan? no. Hmm. But we need maybe not continue because code likely fails. Let's see output.ҵаарақәа to=functions.shell_command  อาคารจีเอ็มเอ็ม?
