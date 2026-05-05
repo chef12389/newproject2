@@ -191,11 +191,19 @@ async function syncFromSession(session: Session | null) {
 }
 
 function initAuth() {
-  if (initialized || !supabase || typeof window === 'undefined') {
+  if (initialized || typeof window === 'undefined') {
     return
   }
 
   initialized = true
+
+  if (!supabase) {
+    authReady = true
+    cachedUser = null
+    cachedMode = 'guest'
+    emitAuthUpdate()
+    return
+  }
 
   supabase.auth
     .getSession()
